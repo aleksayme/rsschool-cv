@@ -41,8 +41,8 @@ body {
 
 .nav-list {
     display: flex;
-    justify-content: flex-start;
-    align-items: left;
+    justify-content: center;
+    
     list-style: none;
 }
 
@@ -143,11 +143,8 @@ body {
     font-size: 80%;
   }
 .namebox{
-        position: absolute;
-        left: 300px;
-        top: 100px;   
-        color:white;
-  text-align: left;
+color:white;
+  justify-content: center;
      
 }
 h1{
