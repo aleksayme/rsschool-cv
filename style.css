@@ -169,7 +169,7 @@ h1{
 .list-inline {
     display: flex;
     justify-content: flex-start;
-    align-items: left;
+    align-items: start;
     list-style: none;
     
 }
