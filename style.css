@@ -42,7 +42,7 @@ body {
 .nav-list {
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;
     list-style: none;
 }
 
@@ -57,6 +57,10 @@ body {
 }
 .nav-link:hover{
     background:#44bedc;
+
+}
+.nav{
+    flex-wrap: wrap;  
 }
 .section-item a {
     color: #829985;
@@ -139,8 +143,10 @@ body {
     font-family: Consolas,"courier new";
     color: crimson;
     background-color: #f1f1f1;
-    padding: 2px;
+    
     font-size: 80%;
+    margin-left: -10px;
+    text-align: center;
   }
 .namebox{
 color:white;
